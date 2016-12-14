@@ -1,5 +1,5 @@
 from setuptools import setup, find_packages
-exec(open('version.py').read())
+exec(open('ansible_inventory_creator/version.py').read())
 setup(
   name='ansible_inventory_creator',
   license='MIT',

@@ -1,0 +1,1 @@
+/usr/lib/python2.7/site-packages/ansible_inventory_creator-0.0.2-py2.7.egg
