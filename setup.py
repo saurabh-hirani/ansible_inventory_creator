@@ -1,5 +1,5 @@
 from setuptools import setup, find_packages
-exec(open('ansible_inventory_creator/version.py').read())
+exec(open('./version.py').read())
 setup(
   name='slotter',
   license='MIT',
