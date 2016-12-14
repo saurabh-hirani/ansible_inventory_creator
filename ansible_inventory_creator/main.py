@@ -9,7 +9,7 @@ import time
 import argparse
 import json
 import re
-import ansible_inventory_creator.utils as utils
+import utils
 
 # TODO
 # have config files - /etc/, ~/., local dir
