@@ -4,6 +4,10 @@
 
 - First cut
 
-### v0.0.2, v0.0.3
+### v0.0.2, v0.0.3, v0.0.4
 
-- Changes to version number for testing package uploads to pypi
+- Minor pip upload error fixes
+
+### v0.0.5
+
+- Fixed error in examples

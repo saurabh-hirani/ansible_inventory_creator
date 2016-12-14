@@ -1,5 +1,26 @@
 #!/usr/bin/env python
-""" Create Ansible icinga2 inventory """
+"""
+Create Ansible icinga2 inventory using ansible_inventory_creator
+
+Pre-requisites:
+
+- An icinga2 setup running with the API feature enabled
+- Python module icinga2_api and update its config file
+- icinga2.json in the same directory as this program
+
+Example:
+
+$ cat > icinga2.json
+{
+  "stage": {
+    "configfile": "/home/xyz/.icinga2/api.yml"
+  }
+} # where 'stage' is the icinga2 api profile and the file path is corresponding config
+
+$ ICINGA2_API_PROFILE=stage python icinga2_inventory --list
+
+$ ICINGA2_API_PROFILE=stage python icinga2_inventory --host $host_ip
+"""
 
 from __future__ import print_function
 import os
