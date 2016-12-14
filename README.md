@@ -49,4 +49,4 @@ That is why this repo exists.
 
 ### Usage
 
-* Check [examples](https://github.com/saurabh-hirani/ansible_inventory_creator/tree/master/examples)
+* Check [examples](https://github.com/saurabh-hirani/ansible_inventory_creator/tree/master/ansible_inventory_creator/examples)
